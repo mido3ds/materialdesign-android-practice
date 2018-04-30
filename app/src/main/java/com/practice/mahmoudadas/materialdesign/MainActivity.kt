@@ -84,15 +84,15 @@ class MainActivity : AppCompatActivity() {
             R.id.about -> {
                 Snackbar.make(coordLayout, "you clicked about", Snackbar.LENGTH_SHORT)
                         .show()
-                true
+                return true
             }
             R.id.bottom_sheet -> {
                 CustomBSDFragment().apply { show(supportFragmentManager, "custom_bottom_sheet_fragment") }
-                true
+                return true
             }
             android.R.id.home -> {
                 drawer.openDrawer(GravityCompat.START)
-                true
+                return true
             }
             else -> {
                 return super.onOptionsItemSelected(item)
