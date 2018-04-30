@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/about"
+    android:title="About"
+    app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/bottom_sheet"
+        android:title="Open Dialog"
+        app:showAsAction="collapseActionView"/>
+</menu>
