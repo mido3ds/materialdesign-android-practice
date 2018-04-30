@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Constraint Layout.iml" filepath="$PROJECT_DIR$/Constraint Layout.iml" />
+      <module fileurl="file://C:\Users\Mahmoud Adas\practice\Material Design - android\Constraint Layout.iml" filepath="C:\Users\Mahmoud Adas\practice\Material Design - android\Constraint Layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Material Design - android.iml" filepath="$PROJECT_DIR$/Material Design - android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
