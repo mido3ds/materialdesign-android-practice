@@ -38,6 +38,9 @@ class MainActivity : AppCompatActivity() {
                 R.id.collapsingTabActivity -> {
                     startActivity(Intent(this, CollapsingTabActivity::class.java))
                 }
+                R.id.bottomNavigationActivity -> {
+                    startActivity(Intent(this, BottomNavActivity::class.java))
+                }
             }
 
             true
