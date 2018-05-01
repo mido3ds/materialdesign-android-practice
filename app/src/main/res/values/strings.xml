@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Material Design Practice</string>
     <string name="long_sample">lorem ipsum hdowuhod ghnwuoebnfo wjebnojw nefbowe hf owebf ojwebo fuhewofjb wbefo uewbf woefuwoe bfeuw f ojewbfwiebf uoweeofuu rhweruwer8wuoehfdsi   wfh uoedfs wehfojsdhf ownefdj hf uweh ouf oefojsd hfouwe0 ufweh fwe jfb jo dshfiwb eifouwe ebw bnowb</string>
+    <string name="title_activity_collapsing_tab">CollapsingTabActivity</string>
 </resources>

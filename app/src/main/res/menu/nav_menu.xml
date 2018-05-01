@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/activity1"
-        android:title="Activity 1"/>
+        android:id="@+id/collapsingTabActivity"
+        android:title="Collapsing TabLayout Activity"/>
     <item
         android:id="@+id/activity2"
         android:title="Activity 2"/>

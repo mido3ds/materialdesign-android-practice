@@ -1,5 +1,6 @@
 package com.practice.mahmoudadas.materialdesign
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.BottomSheetDialogFragment
 import android.support.design.widget.CollapsingToolbarLayout
@@ -31,11 +32,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupNav() {
         nav.setNavigationItemSelectedListener { item: MenuItem ->
-            item.isChecked = true
             drawer.closeDrawers()
 
-            Snackbar.make(coordLayout, "you clicked ${item.title}", Snackbar.LENGTH_SHORT)
-                    .show()
+            when (item.itemId) {
+                R.id.collapsingTabActivity -> {
+                    startActivity(Intent(this, CollapsingTabActivity::class.java))
+                }
+            }
+
             true
         }
         nav.setPadding(0, resources.dpToPx(24), 0, 0)
