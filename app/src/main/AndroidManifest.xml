@@ -25,7 +25,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.practice.mahmoudadas.materialdesign.MainActivity" />
         </activity>
-        <activity android:name=".BottomNavActivity"></activity>
+        <activity
+            android:name=".BottomNavActivity"
+            android:label="Bottom Navigation Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.practice.mahmoudadas.materialdesign.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
